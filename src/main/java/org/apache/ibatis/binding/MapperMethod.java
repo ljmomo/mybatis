@@ -46,7 +46,7 @@ import org.apache.ibatis.session.SqlSession;
  */
 public class MapperMethod {
 
-  // statement id （例如：com.gupaoedu.mapper.BlogMapper.selectBlogById） 和 SQL 类型
+  // statement id （例如：com.lvzhu.mapper.BlogMapper.selectBlogById） 和 SQL 类型
   private final SqlCommand command;
   // 方法签名，主要是返回值的类型
   private final MethodSignature method;

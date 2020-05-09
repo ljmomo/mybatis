@@ -204,8 +204,8 @@ public abstract class BaseExecutor implements Executor {
       throw new ExecutorException("Executor was closed.");
     }
     CacheKey cacheKey = new CacheKey();
-    // -1381545870:4796102018:com.gupaoedu.mapper.BlogMapper.selectBlogById:0:2147483647:select * from blog where bid = ?:1:development
-    cacheKey.update(ms.getId()); // com.gupaoedu.mapper.BlogMapper.selectBlogById
+    // -1381545870:4796102018:com.lvzhu.mapper.BlogMapper.selectBlogById:0:2147483647:select * from blog where bid = ?:1:development
+    cacheKey.update(ms.getId()); // com.lvzhu.mapper.BlogMapper.selectBlogById
     cacheKey.update(rowBounds.getOffset()); // 0
     cacheKey.update(rowBounds.getLimit()); // 2147483647 = 2^31-1
     cacheKey.update(boundSql.getSql());
